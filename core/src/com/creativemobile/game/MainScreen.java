@@ -148,7 +148,7 @@ public final class MainScreen implements Screen {
 
     @Override
     public void dispose() {
-
+        stage.dispose();
     }
 
     public Stage getStage() {
